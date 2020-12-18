@@ -1,0 +1,2806 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>250, 173</value>
+  </metadata>
+  <data name="openFileDialog1.Filter" xml:space="preserve">
+    <value>excel 2003 file|*.xls| Excel 2007 | *.xlsx</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtFilePath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 12</value>
+  </data>
+  <data name="txtFilePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 20</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtFilePath.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtFilePath.Name" xml:space="preserve">
+    <value>txtFilePath</value>
+  </data>
+  <data name="&gt;&gt;txtFilePath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtFilePath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtFilePath.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblFileSelect.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFileSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="lblFileSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="lblFileSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblFileSelect.Text" xml:space="preserve">
+    <value>Chọn file </value>
+  </data>
+  <data name="&gt;&gt;lblFileSelect.Name" xml:space="preserve">
+    <value>lblFileSelect</value>
+  </data>
+  <data name="&gt;&gt;lblFileSelect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFileSelect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblFileSelect.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="cbSheets.Location" type="System.Drawing.Point, System.Drawing">
+    <value>522, 12</value>
+  </data>
+  <data name="cbSheets.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 21</value>
+  </data>
+  <data name="cbSheets.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cbSheets.Name" xml:space="preserve">
+    <value>cbSheets</value>
+  </data>
+  <data name="&gt;&gt;cbSheets.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbSheets.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbSheets.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>455, 16</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Chọn Sheet</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 71</value>
+  </data>
+  <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>842, 152</value>
+  </data>
+  <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
+    <value>dataGridView1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;cboLoaiKH.Name" xml:space="preserve">
+    <value>cboLoaiKH</value>
+  </data>
+  <data name="&gt;&gt;cboLoaiKH.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboLoaiKH.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;cboLoaiKH.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelX9.Name" xml:space="preserve">
+    <value>labelX9</value>
+  </data>
+  <data name="&gt;&gt;labelX9.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX9.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX9.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cboSoSBH.Name" xml:space="preserve">
+    <value>cboSoSBH</value>
+  </data>
+  <data name="&gt;&gt;cboSoSBH.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboSoSBH.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;cboSoSBH.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;labelX8.Name" xml:space="preserve">
+    <value>labelX8</value>
+  </data>
+  <data name="&gt;&gt;labelX8.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX8.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX8.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cboDiaChi.Name" xml:space="preserve">
+    <value>cboDiaChi</value>
+  </data>
+  <data name="&gt;&gt;cboDiaChi.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboDiaChi.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;cboDiaChi.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;labelX7.Name" xml:space="preserve">
+    <value>labelX7</value>
+  </data>
+  <data name="&gt;&gt;labelX7.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX7.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX7.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cboCMND.Name" xml:space="preserve">
+    <value>cboCMND</value>
+  </data>
+  <data name="&gt;&gt;cboCMND.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboCMND.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;cboCMND.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;labelX6.Name" xml:space="preserve">
+    <value>labelX6</value>
+  </data>
+  <data name="&gt;&gt;labelX6.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX6.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX6.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cboSoDienThoai.Name" xml:space="preserve">
+    <value>cboSoDienThoai</value>
+  </data>
+  <data name="&gt;&gt;cboSoDienThoai.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboSoDienThoai.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;cboSoDienThoai.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;labelX5.Name" xml:space="preserve">
+    <value>labelX5</value>
+  </data>
+  <data name="&gt;&gt;labelX5.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX5.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX5.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;cboGioiTinh.Name" xml:space="preserve">
+    <value>cboGioiTinh</value>
+  </data>
+  <data name="&gt;&gt;cboGioiTinh.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboGioiTinh.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;cboGioiTinh.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;labelX4.Name" xml:space="preserve">
+    <value>labelX4</value>
+  </data>
+  <data name="&gt;&gt;labelX4.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX4.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX4.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;cboNgaySinh.Name" xml:space="preserve">
+    <value>cboNgaySinh</value>
+  </data>
+  <data name="&gt;&gt;cboNgaySinh.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboNgaySinh.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;cboNgaySinh.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;labelX3.Name" xml:space="preserve">
+    <value>labelX3</value>
+  </data>
+  <data name="&gt;&gt;labelX3.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX3.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX3.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;cboTenKhachHang.Name" xml:space="preserve">
+    <value>cboTenKhachHang</value>
+  </data>
+  <data name="&gt;&gt;cboTenKhachHang.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboTenKhachHang.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;cboTenKhachHang.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;labelX2.Name" xml:space="preserve">
+    <value>labelX2</value>
+  </data>
+  <data name="&gt;&gt;labelX2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX2.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX2.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;cboHoKhachHang.Name" xml:space="preserve">
+    <value>cboHoKhachHang</value>
+  </data>
+  <data name="&gt;&gt;cboHoKhachHang.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboHoKhachHang.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;cboHoKhachHang.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;labelX1.Name" xml:space="preserve">
+    <value>labelX1</value>
+  </data>
+  <data name="&gt;&gt;labelX1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX1.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="gbCustInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 229</value>
+  </data>
+  <data name="gbCustInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 338</value>
+  </data>
+  <data name="gbCustInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="gbCustInfo.Text" xml:space="preserve">
+    <value>Khách hàng</value>
+  </data>
+  <data name="&gt;&gt;gbCustInfo.Name" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;gbCustInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbCustInfo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbCustInfo.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cboLoaiKH.ItemHeight" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cboLoaiKH.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 230</value>
+  </data>
+  <data name="cboLoaiKH.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="cboLoaiKH.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cboLoaiKH.Name" xml:space="preserve">
+    <value>cboLoaiKH</value>
+  </data>
+  <data name="&gt;&gt;cboLoaiKH.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboLoaiKH.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;cboLoaiKH.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelX9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 227</value>
+  </data>
+  <data name="labelX9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 23</value>
+  </data>
+  <data name="labelX9.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelX9.Text" xml:space="preserve">
+    <value>Loại khách hàng:</value>
+  </data>
+  <data name="&gt;&gt;labelX9.Name" xml:space="preserve">
+    <value>labelX9</value>
+  </data>
+  <data name="&gt;&gt;labelX9.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX9.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX9.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cboSoSBH.ItemHeight" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cboSoSBH.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 204</value>
+  </data>
+  <data name="cboSoSBH.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="cboSoSBH.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cboSoSBH.Name" xml:space="preserve">
+    <value>cboSoSBH</value>
+  </data>
+  <data name="&gt;&gt;cboSoSBH.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboSoSBH.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;cboSoSBH.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelX8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 201</value>
+  </data>
+  <data name="labelX8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="labelX8.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelX8.Text" xml:space="preserve">
+    <value>Số SBH:</value>
+  </data>
+  <data name="&gt;&gt;labelX8.Name" xml:space="preserve">
+    <value>labelX8</value>
+  </data>
+  <data name="&gt;&gt;labelX8.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX8.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX8.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cboDiaChi.ItemHeight" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cboDiaChi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 178</value>
+  </data>
+  <data name="cboDiaChi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="cboDiaChi.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cboDiaChi.Name" xml:space="preserve">
+    <value>cboDiaChi</value>
+  </data>
+  <data name="&gt;&gt;cboDiaChi.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboDiaChi.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;cboDiaChi.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelX7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 175</value>
+  </data>
+  <data name="labelX7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="labelX7.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelX7.Text" xml:space="preserve">
+    <value>Địa chỉ:</value>
+  </data>
+  <data name="&gt;&gt;labelX7.Name" xml:space="preserve">
+    <value>labelX7</value>
+  </data>
+  <data name="&gt;&gt;labelX7.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX7.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX7.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cboCMND.ItemHeight" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cboCMND.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 152</value>
+  </data>
+  <data name="cboCMND.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="cboCMND.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cboCMND.Name" xml:space="preserve">
+    <value>cboCMND</value>
+  </data>
+  <data name="&gt;&gt;cboCMND.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboCMND.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;cboCMND.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelX6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 149</value>
+  </data>
+  <data name="labelX6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="labelX6.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelX6.Text" xml:space="preserve">
+    <value>Số CMND:</value>
+  </data>
+  <data name="&gt;&gt;labelX6.Name" xml:space="preserve">
+    <value>labelX6</value>
+  </data>
+  <data name="&gt;&gt;labelX6.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX6.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX6.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cboSoDienThoai.ItemHeight" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cboSoDienThoai.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 126</value>
+  </data>
+  <data name="cboSoDienThoai.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="cboSoDienThoai.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cboSoDienThoai.Name" xml:space="preserve">
+    <value>cboSoDienThoai</value>
+  </data>
+  <data name="&gt;&gt;cboSoDienThoai.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboSoDienThoai.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;cboSoDienThoai.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="labelX5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 123</value>
+  </data>
+  <data name="labelX5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="labelX5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelX5.Text" xml:space="preserve">
+    <value>Số điện thoại:</value>
+  </data>
+  <data name="&gt;&gt;labelX5.Name" xml:space="preserve">
+    <value>labelX5</value>
+  </data>
+  <data name="&gt;&gt;labelX5.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX5.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX5.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cboGioiTinh.ItemHeight" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cboGioiTinh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 100</value>
+  </data>
+  <data name="cboGioiTinh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="cboGioiTinh.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cboGioiTinh.Name" xml:space="preserve">
+    <value>cboGioiTinh</value>
+  </data>
+  <data name="&gt;&gt;cboGioiTinh.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboGioiTinh.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;cboGioiTinh.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="labelX4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 97</value>
+  </data>
+  <data name="labelX4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="labelX4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelX4.Text" xml:space="preserve">
+    <value>Giới tinh:</value>
+  </data>
+  <data name="&gt;&gt;labelX4.Name" xml:space="preserve">
+    <value>labelX4</value>
+  </data>
+  <data name="&gt;&gt;labelX4.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX4.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX4.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cboNgaySinh.ItemHeight" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cboNgaySinh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 74</value>
+  </data>
+  <data name="cboNgaySinh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="cboNgaySinh.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cboNgaySinh.Name" xml:space="preserve">
+    <value>cboNgaySinh</value>
+  </data>
+  <data name="&gt;&gt;cboNgaySinh.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboNgaySinh.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;cboNgaySinh.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="labelX3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 71</value>
+  </data>
+  <data name="labelX3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="labelX3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelX3.Text" xml:space="preserve">
+    <value>Ngày sinh:</value>
+  </data>
+  <data name="&gt;&gt;labelX3.Name" xml:space="preserve">
+    <value>labelX3</value>
+  </data>
+  <data name="&gt;&gt;labelX3.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX3.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX3.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="cboTenKhachHang.ItemHeight" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cboTenKhachHang.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 48</value>
+  </data>
+  <data name="cboTenKhachHang.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="cboTenKhachHang.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cboTenKhachHang.Name" xml:space="preserve">
+    <value>cboTenKhachHang</value>
+  </data>
+  <data name="&gt;&gt;cboTenKhachHang.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboTenKhachHang.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;cboTenKhachHang.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="labelX2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 45</value>
+  </data>
+  <data name="labelX2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="labelX2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelX2.Text" xml:space="preserve">
+    <value>Tên khách hàng:</value>
+  </data>
+  <data name="&gt;&gt;labelX2.Name" xml:space="preserve">
+    <value>labelX2</value>
+  </data>
+  <data name="&gt;&gt;labelX2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX2.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX2.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="cboHoKhachHang.ItemHeight" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cboHoKhachHang.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 22</value>
+  </data>
+  <data name="cboHoKhachHang.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="cboHoKhachHang.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cboHoKhachHang.Name" xml:space="preserve">
+    <value>cboHoKhachHang</value>
+  </data>
+  <data name="&gt;&gt;cboHoKhachHang.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboHoKhachHang.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;cboHoKhachHang.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="labelX1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 19</value>
+  </data>
+  <data name="labelX1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="labelX1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelX1.Text" xml:space="preserve">
+    <value>Họ khách hàng:</value>
+  </data>
+  <data name="&gt;&gt;labelX1.Name" xml:space="preserve">
+    <value>labelX1</value>
+  </data>
+  <data name="&gt;&gt;labelX1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX1.Parent" xml:space="preserve">
+    <value>gbCustInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;cboKyThuatVien.Name" xml:space="preserve">
+    <value>cboKyThuatVien</value>
+  </data>
+  <data name="&gt;&gt;cboKyThuatVien.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboKyThuatVien.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboKyThuatVien.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelX22.Name" xml:space="preserve">
+    <value>labelX22</value>
+  </data>
+  <data name="&gt;&gt;labelX22.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX22.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX22.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cboSoPhieu.Name" xml:space="preserve">
+    <value>cboSoPhieu</value>
+  </data>
+  <data name="&gt;&gt;cboSoPhieu.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboSoPhieu.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboSoPhieu.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cboLoaiBaoDuong.Name" xml:space="preserve">
+    <value>cboLoaiBaoDuong</value>
+  </data>
+  <data name="&gt;&gt;cboLoaiBaoDuong.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboLoaiBaoDuong.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboLoaiBaoDuong.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;labelX10.Name" xml:space="preserve">
+    <value>labelX10</value>
+  </data>
+  <data name="&gt;&gt;labelX10.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX10.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX10.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;labelX21.Name" xml:space="preserve">
+    <value>labelX21</value>
+  </data>
+  <data name="&gt;&gt;labelX21.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX21.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX21.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cboSoLanBD.Name" xml:space="preserve">
+    <value>cboSoLanBD</value>
+  </data>
+  <data name="&gt;&gt;cboSoLanBD.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboSoLanBD.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboSoLanBD.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cboThayDau.Name" xml:space="preserve">
+    <value>cboThayDau</value>
+  </data>
+  <data name="&gt;&gt;cboThayDau.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboThayDau.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboThayDau.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;labelX11.Name" xml:space="preserve">
+    <value>labelX11</value>
+  </data>
+  <data name="&gt;&gt;labelX11.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX11.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX11.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;labelX20.Name" xml:space="preserve">
+    <value>labelX20</value>
+  </data>
+  <data name="&gt;&gt;labelX20.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX20.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX20.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;cboSoKm.Name" xml:space="preserve">
+    <value>cboSoKm</value>
+  </data>
+  <data name="&gt;&gt;cboSoKm.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboSoKm.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboSoKm.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;cboSoMay.Name" xml:space="preserve">
+    <value>cboSoMay</value>
+  </data>
+  <data name="&gt;&gt;cboSoMay.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboSoMay.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboSoMay.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;labelX23.Name" xml:space="preserve">
+    <value>labelX23</value>
+  </data>
+  <data name="&gt;&gt;labelX23.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX23.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX23.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;cboTongTien.Name" xml:space="preserve">
+    <value>cboTongTien</value>
+  </data>
+  <data name="&gt;&gt;cboTongTien.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboTongTien.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboTongTien.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;labelX12.Name" xml:space="preserve">
+    <value>labelX12</value>
+  </data>
+  <data name="&gt;&gt;labelX12.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX12.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX12.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;labelX19.Name" xml:space="preserve">
+    <value>labelX19</value>
+  </data>
+  <data name="&gt;&gt;labelX19.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX19.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX19.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;cboSoKhung.Name" xml:space="preserve">
+    <value>cboSoKhung</value>
+  </data>
+  <data name="&gt;&gt;cboSoKhung.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboSoKhung.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboSoKhung.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;labelX13.Name" xml:space="preserve">
+    <value>labelX13</value>
+  </data>
+  <data name="&gt;&gt;labelX13.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX13.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX13.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;cboBienSoXe.Name" xml:space="preserve">
+    <value>cboBienSoXe</value>
+  </data>
+  <data name="&gt;&gt;cboBienSoXe.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboBienSoXe.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboBienSoXe.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;labelX14.Name" xml:space="preserve">
+    <value>labelX14</value>
+  </data>
+  <data name="&gt;&gt;labelX14.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX14.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX14.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;cboMauXe.Name" xml:space="preserve">
+    <value>cboMauXe</value>
+  </data>
+  <data name="&gt;&gt;cboMauXe.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboMauXe.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboMauXe.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;labelX15.Name" xml:space="preserve">
+    <value>labelX15</value>
+  </data>
+  <data name="&gt;&gt;labelX15.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX15.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX15.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;cboTenXe.Name" xml:space="preserve">
+    <value>cboTenXe</value>
+  </data>
+  <data name="&gt;&gt;cboTenXe.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboTenXe.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboTenXe.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;labelX16.Name" xml:space="preserve">
+    <value>labelX16</value>
+  </data>
+  <data name="&gt;&gt;labelX16.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX16.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX16.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;cboNgayGiaoXe.Name" xml:space="preserve">
+    <value>cboNgayGiaoXe</value>
+  </data>
+  <data name="&gt;&gt;cboNgayGiaoXe.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboNgayGiaoXe.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboNgayGiaoXe.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;labelX17.Name" xml:space="preserve">
+    <value>labelX17</value>
+  </data>
+  <data name="&gt;&gt;labelX17.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX17.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX17.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;cboNgayBaoDuong.Name" xml:space="preserve">
+    <value>cboNgayBaoDuong</value>
+  </data>
+  <data name="&gt;&gt;cboNgayBaoDuong.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboNgayBaoDuong.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboNgayBaoDuong.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;labelX18.Name" xml:space="preserve">
+    <value>labelX18</value>
+  </data>
+  <data name="&gt;&gt;labelX18.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX18.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX18.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="gbXeInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>382, 230</value>
+  </data>
+  <data name="gbXeInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 338</value>
+  </data>
+  <data name="gbXeInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="gbXeInfo.Text" xml:space="preserve">
+    <value>Xe bảo dưỡng</value>
+  </data>
+  <data name="&gt;&gt;gbXeInfo.Name" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;gbXeInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbXeInfo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbXeInfo.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cboKyThuatVien.ItemHeight" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cboKyThuatVien.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 308</value>
+  </data>
+  <data name="cboKyThuatVien.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 20</value>
+  </data>
+  <data name="cboKyThuatVien.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;cboKyThuatVien.Name" xml:space="preserve">
+    <value>cboKyThuatVien</value>
+  </data>
+  <data name="&gt;&gt;cboKyThuatVien.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboKyThuatVien.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboKyThuatVien.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelX22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 288</value>
+  </data>
+  <data name="labelX22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="labelX22.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="labelX22.Text" xml:space="preserve">
+    <value>Kỹ thuật viên:</value>
+  </data>
+  <data name="&gt;&gt;labelX22.Name" xml:space="preserve">
+    <value>labelX22</value>
+  </data>
+  <data name="&gt;&gt;labelX22.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX22.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX22.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cboSoPhieu.ItemHeight" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cboSoPhieu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 221</value>
+  </data>
+  <data name="cboSoPhieu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 20</value>
+  </data>
+  <data name="cboSoPhieu.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;cboSoPhieu.Name" xml:space="preserve">
+    <value>cboSoPhieu</value>
+  </data>
+  <data name="&gt;&gt;cboSoPhieu.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboSoPhieu.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboSoPhieu.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cboLoaiBaoDuong.ItemHeight" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cboLoaiBaoDuong.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 308</value>
+  </data>
+  <data name="cboLoaiBaoDuong.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 20</value>
+  </data>
+  <data name="cboLoaiBaoDuong.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;cboLoaiBaoDuong.Name" xml:space="preserve">
+    <value>cboLoaiBaoDuong</value>
+  </data>
+  <data name="&gt;&gt;cboLoaiBaoDuong.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboLoaiBaoDuong.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboLoaiBaoDuong.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelX10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 201</value>
+  </data>
+  <data name="labelX10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="labelX10.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="labelX10.Text" xml:space="preserve">
+    <value>Số phiếu:</value>
+  </data>
+  <data name="&gt;&gt;labelX10.Name" xml:space="preserve">
+    <value>labelX10</value>
+  </data>
+  <data name="&gt;&gt;labelX10.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX10.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX10.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelX21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 288</value>
+  </data>
+  <data name="labelX21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="labelX21.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelX21.Text" xml:space="preserve">
+    <value>Loại bảo dưỡng:</value>
+  </data>
+  <data name="&gt;&gt;labelX21.Name" xml:space="preserve">
+    <value>labelX21</value>
+  </data>
+  <data name="&gt;&gt;labelX21.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX21.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX21.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cboSoLanBD.ItemHeight" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cboSoLanBD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 221</value>
+  </data>
+  <data name="cboSoLanBD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 20</value>
+  </data>
+  <data name="cboSoLanBD.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;cboSoLanBD.Name" xml:space="preserve">
+    <value>cboSoLanBD</value>
+  </data>
+  <data name="&gt;&gt;cboSoLanBD.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboSoLanBD.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboSoLanBD.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cboThayDau.ItemHeight" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cboThayDau.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 265</value>
+  </data>
+  <data name="cboThayDau.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 20</value>
+  </data>
+  <data name="cboThayDau.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;cboThayDau.Name" xml:space="preserve">
+    <value>cboThayDau</value>
+  </data>
+  <data name="&gt;&gt;cboThayDau.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboThayDau.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboThayDau.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelX11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 201</value>
+  </data>
+  <data name="labelX11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="labelX11.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelX11.Text" xml:space="preserve">
+    <value>Số lần BD:</value>
+  </data>
+  <data name="&gt;&gt;labelX11.Name" xml:space="preserve">
+    <value>labelX11</value>
+  </data>
+  <data name="&gt;&gt;labelX11.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX11.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX11.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="labelX20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 243</value>
+  </data>
+  <data name="labelX20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="labelX20.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelX20.Text" xml:space="preserve">
+    <value>Thay dầu:</value>
+  </data>
+  <data name="&gt;&gt;labelX20.Name" xml:space="preserve">
+    <value>labelX20</value>
+  </data>
+  <data name="&gt;&gt;labelX20.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX20.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX20.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cboSoKm.ItemHeight" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cboSoKm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 178</value>
+  </data>
+  <data name="cboSoKm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 20</value>
+  </data>
+  <data name="cboSoKm.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;cboSoKm.Name" xml:space="preserve">
+    <value>cboSoKm</value>
+  </data>
+  <data name="&gt;&gt;cboSoKm.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboSoKm.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboSoKm.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cboSoMay.ItemHeight" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cboSoMay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 178</value>
+  </data>
+  <data name="cboSoMay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 20</value>
+  </data>
+  <data name="cboSoMay.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;cboSoMay.Name" xml:space="preserve">
+    <value>cboSoMay</value>
+  </data>
+  <data name="&gt;&gt;cboSoMay.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboSoMay.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboSoMay.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="labelX23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 156</value>
+  </data>
+  <data name="labelX23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="labelX23.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelX23.Text" xml:space="preserve">
+    <value>Số km:</value>
+  </data>
+  <data name="&gt;&gt;labelX23.Name" xml:space="preserve">
+    <value>labelX23</value>
+  </data>
+  <data name="&gt;&gt;labelX23.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX23.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX23.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="cboTongTien.ItemHeight" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cboTongTien.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 265</value>
+  </data>
+  <data name="cboTongTien.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 20</value>
+  </data>
+  <data name="cboTongTien.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;cboTongTien.Name" xml:space="preserve">
+    <value>cboTongTien</value>
+  </data>
+  <data name="&gt;&gt;cboTongTien.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboTongTien.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboTongTien.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="labelX12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 156</value>
+  </data>
+  <data name="labelX12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="labelX12.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelX12.Text" xml:space="preserve">
+    <value>Số máy:</value>
+  </data>
+  <data name="&gt;&gt;labelX12.Name" xml:space="preserve">
+    <value>labelX12</value>
+  </data>
+  <data name="&gt;&gt;labelX12.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX12.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX12.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="labelX19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 243</value>
+  </data>
+  <data name="labelX19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="labelX19.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="labelX19.Text" xml:space="preserve">
+    <value>Tổng tiền:</value>
+  </data>
+  <data name="&gt;&gt;labelX19.Name" xml:space="preserve">
+    <value>labelX19</value>
+  </data>
+  <data name="&gt;&gt;labelX19.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX19.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX19.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="cboSoKhung.ItemHeight" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cboSoKhung.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 133</value>
+  </data>
+  <data name="cboSoKhung.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 20</value>
+  </data>
+  <data name="cboSoKhung.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;cboSoKhung.Name" xml:space="preserve">
+    <value>cboSoKhung</value>
+  </data>
+  <data name="&gt;&gt;cboSoKhung.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboSoKhung.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboSoKhung.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="labelX13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 108</value>
+  </data>
+  <data name="labelX13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="labelX13.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="labelX13.Text" xml:space="preserve">
+    <value>Số khung:</value>
+  </data>
+  <data name="&gt;&gt;labelX13.Name" xml:space="preserve">
+    <value>labelX13</value>
+  </data>
+  <data name="&gt;&gt;labelX13.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX13.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX13.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="cboBienSoXe.ItemHeight" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cboBienSoXe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 133</value>
+  </data>
+  <data name="cboBienSoXe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 20</value>
+  </data>
+  <data name="cboBienSoXe.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;cboBienSoXe.Name" xml:space="preserve">
+    <value>cboBienSoXe</value>
+  </data>
+  <data name="&gt;&gt;cboBienSoXe.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboBienSoXe.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboBienSoXe.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="labelX14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 109</value>
+  </data>
+  <data name="labelX14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="labelX14.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="labelX14.Text" xml:space="preserve">
+    <value>Biển số xe:</value>
+  </data>
+  <data name="&gt;&gt;labelX14.Name" xml:space="preserve">
+    <value>labelX14</value>
+  </data>
+  <data name="&gt;&gt;labelX14.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX14.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX14.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="cboMauXe.ItemHeight" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cboMauXe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 85</value>
+  </data>
+  <data name="cboMauXe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 20</value>
+  </data>
+  <data name="cboMauXe.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;cboMauXe.Name" xml:space="preserve">
+    <value>cboMauXe</value>
+  </data>
+  <data name="&gt;&gt;cboMauXe.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboMauXe.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboMauXe.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="labelX15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 64</value>
+  </data>
+  <data name="labelX15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="labelX15.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="labelX15.Text" xml:space="preserve">
+    <value>Màu xe:</value>
+  </data>
+  <data name="&gt;&gt;labelX15.Name" xml:space="preserve">
+    <value>labelX15</value>
+  </data>
+  <data name="&gt;&gt;labelX15.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX15.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX15.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="cboTenXe.ItemHeight" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cboTenXe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 83</value>
+  </data>
+  <data name="cboTenXe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 20</value>
+  </data>
+  <data name="cboTenXe.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;cboTenXe.Name" xml:space="preserve">
+    <value>cboTenXe</value>
+  </data>
+  <data name="&gt;&gt;cboTenXe.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboTenXe.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboTenXe.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="labelX16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 62</value>
+  </data>
+  <data name="labelX16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="labelX16.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="labelX16.Text" xml:space="preserve">
+    <value>Tên xe:</value>
+  </data>
+  <data name="&gt;&gt;labelX16.Name" xml:space="preserve">
+    <value>labelX16</value>
+  </data>
+  <data name="&gt;&gt;labelX16.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX16.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX16.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="cboNgayGiaoXe.ItemHeight" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cboNgayGiaoXe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 42</value>
+  </data>
+  <data name="cboNgayGiaoXe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 20</value>
+  </data>
+  <data name="cboNgayGiaoXe.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;cboNgayGiaoXe.Name" xml:space="preserve">
+    <value>cboNgayGiaoXe</value>
+  </data>
+  <data name="&gt;&gt;cboNgayGiaoXe.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboNgayGiaoXe.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboNgayGiaoXe.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="labelX17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 20</value>
+  </data>
+  <data name="labelX17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="labelX17.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelX17.Text" xml:space="preserve">
+    <value>Ngày giao xe:</value>
+  </data>
+  <data name="&gt;&gt;labelX17.Name" xml:space="preserve">
+    <value>labelX17</value>
+  </data>
+  <data name="&gt;&gt;labelX17.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX17.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX17.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="cboNgayBaoDuong.ItemHeight" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cboNgayBaoDuong.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 42</value>
+  </data>
+  <data name="cboNgayBaoDuong.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 20</value>
+  </data>
+  <data name="cboNgayBaoDuong.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;cboNgayBaoDuong.Name" xml:space="preserve">
+    <value>cboNgayBaoDuong</value>
+  </data>
+  <data name="&gt;&gt;cboNgayBaoDuong.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;cboNgayBaoDuong.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;cboNgayBaoDuong.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="labelX18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 20</value>
+  </data>
+  <data name="labelX18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 23</value>
+  </data>
+  <data name="labelX18.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelX18.Text" xml:space="preserve">
+    <value>Ngày bảo dưỡng:</value>
+  </data>
+  <data name="&gt;&gt;labelX18.Name" xml:space="preserve">
+    <value>labelX18</value>
+  </data>
+  <data name="&gt;&gt;labelX18.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;labelX18.Parent" xml:space="preserve">
+    <value>gbXeInfo</value>
+  </data>
+  <data name="&gt;&gt;labelX18.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Italic</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 571</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>487, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Chú ý: Các trường phải có: SĐT, Ngày giao xe, Lần bảo dưỡng, Biển số hoặc Số khung hoặc Số Máy</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="progressBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 589</value>
+  </data>
+  <data name="progressBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 23</value>
+  </data>
+  <data name="progressBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="progressBar1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.Name" xml:space="preserve">
+    <value>progressBar1</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="openFileDialog2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>390, 173</value>
+  </metadata>
+  <data name="buttonX1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABoAAAAVCAYAAABYHP4bAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAUASURBVEhLnVRrTFNnGDbZjyVL/GeyZD+WmOyHifOP
+        GV7mECgQJtDhZVZgUxRURKdzccuymzHZxlzYJFnGpFxnKQiVIQjKrQ5EQKDcClW0pYVSS2lLgR4oLT09
+        59l7MHRtaPzhaZ/ve7/3O9/znPc5b7sBQEgMu/BWnsn73bEBaCRq1igZ8ODEoBvpA26kDkJ3ahh9pQac
+        DXU2FEIm66aQeFHNN5/sdOP0sBefjzHI0gJnjMBJPXBUB3xKOK5mNedUzvb+BWwOxROIdYlGE0TpfZxa
+        0gsc6wPOG4DMceCTEQ5H1RRrWHymZXGW8sc1QEoPh0vdTL3K8XKxoEWPCVvSe6De38Hj1ACREPHZPgbf
+        djqR3WlF7oNxZLcM41LbM5xRMcigfQFJ9334odsp06/gtUC+QAQtvulYqUpq4ZHVA0i6OKR22yBtV6ND
+        pYHumQEzE5N4rNWjZngcV7qeI/2hB8lUddogIG50IV/LfR3IFwh/MGLHm6m1Vl1yKz1lF3BEyaCofwpT
+        VnoxnJ1uWSYAPGHFy6BPr0NO5xSO3HUhoxuI6yAHGh1k6HoRAf5APuTMSLltw4E2OnTHg6tt0zA/nwVL
+        H8C7Oi75AA9HAe+kYRYqiw1f3nsGyR0nDj2iqqpnGZUt9LvyB+eare1x9T7sfwgkyCxQDs9QGmCpBA/N
+        HEdSggiB91LMc5j1AiXtJiRWWvCxEvhIYUdx7+x5uitIRIA/SK136fY1UOsqeRws0+IpQ1meXRUBR6Nv
+        iQIvXDQKOZ5GN83KMQPibi7iYDMQX+XAj/9O51M6SESAPzhRP68WKxxIbAKibjqhnyM61rZq2Qti0iPr
+        6Pvici+txq0jzxFbPo/ERrK8ch65XdafKB0kIsAfXLprqY8pn4WYLNhT6UWTnui90/AJNvlWqAOoIo68
+        4sg79yLNLBboYHaLDbFlDnxIDxgtJ+u6p15unVw1kxFWziKJDojKFnC60QPzHJlDpQh2CTYJM0nSJXQg
+        iye0kFSYcaiORXQ9OVFgQM/E/BbaDBIR4A+0Jtsb8ZWMK/of4OBtH3bJffi9l4WVNleJffT8HAMfvTdB
+        TE8FXlHOYWeBnVociFRQM5Qa5wSuUAha/KmcuBwldyO+Foip5Mh7Bl81WNA/6cESOclTddPkXg3932Up
+        bIiU2hFdByRWexB7i0N8ybSr1YgPAjnXELQYe6rfeLHK0BwlX4GYxETVZEeRGWFl9MRSB8SFZkTlW7Bb
+        Og/RDRdEsmXEUiXiWy7EKViqzoHDcqu53YawQF4BQQsBD/oN25MVy4adMiCWbNxfxyPiJo8EhRcx5UsU
+        +yC6RT+BBg6HqNPCq3nEUddFV7gRWQNslXpxoHDcPjDlejuQN0hkDe1PTGHf14xWiAv1CC+aQ1j5CiKp
+        wnASjiCyPRUe7CiYR0QJg70076b8vnwzDhdbISoH3pV6kHDtsdA7fs4ggUCMGuc2lT0cz/i5diQvrWJZ
+        k1Jih+S6DseLn+CCTH3/tyZdjqzLmPlrVce190qdeL+URXwZh8jrFuwtdmJHjgGFKvaLNb51AqHQrx7b
+        3NE7tL2tVxXWNaTe2qd5/M7a3vjkxOsXqvX3I6VW7KJ3uUdGVldSVbk2/NLG/LF2XxDhq2J0wr7pctWo
+        TJRnxLZCH7blLyPhL62rTbfob4p1h14VT/Wmjdfq1FfT/tZqMuXaRzdaRzL/38eG/wDM4ZQ6tisvZgAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="buttonX1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>652, 7</value>
+  </data>
+  <data name="buttonX1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 30</value>
+  </data>
+  <data name="buttonX1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="buttonX1.Text" xml:space="preserve">
+    <value>&amp;Open File</value>
+  </data>
+  <data name="&gt;&gt;buttonX1.Name" xml:space="preserve">
+    <value>buttonX1</value>
+  </data>
+  <data name="&gt;&gt;buttonX1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonX1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonX1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="buttonX2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABsAAAAXCAYAAAD6FjQuAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAYSSURBVEhLjZVpTBRnGMfXA1FxL/Zkd4drARFxwYPi
+        ga0cWurJqXIqiqDWI02PmH4y6RdNjR9MNVobkzZpbaqJkWtZWPaSY3E5lmMXWFxP8Gos3lLR/vsMDQR0
+        TLqZf+Z5nnn395/3mfed4QH4X/K8bGSuDP248eLA199cuPPVIeuj02m9z+unc439kDiLE3Xuyc6jB9z8
+        B7v7BfcK+mdic/cUlFznY4d7Orb1THtY6J1+75eBwrTbcE3h+v9EcRZZXXn68+pv26MbSq8GuQ7elKO4
+        X4iSO3KU3FLg4IAG+70y7Lslxxd/apDv5mFfp8Kmv39KxcUaE2fx4uCpjD1udV92Fw8lfbNReluOQo8/
+        iq6pUORWYk+vCnt7AlDaK0XJDSVK7kqw7YYI2R2zrv00uC2Ni8nqvYJ16PLi7Y3hbRvcU1E4EIISrxi5
+        bgEKe+TY7g7ETheD3b0a7HJLKRdgW58/dnWJUHo9Gjm3Bchs5f118f6RiHe5rCYl3pFm5efWKHu60xd5
+        N7XY0qHA9jYGBS4Cd6tR2KJGUZca+Z0CZLVPQ14PHwV9EhR3zcYWD49mGouMdiFy62b3dT+2+Exks5qU
+        nOndeTTVyEOmR4ytLhlyW2khdDDI7ZChoE2Frc0BFCuQ2TkLeTRme48aW5rU2G9dgCKHFpn9AdjqDcVm
+        hwoHmmNPTGSzGg+8aJVnVymuZ7glyO7XIKN1NgpdAUi/6oe0VjGy2wKwxckgwylDGs1ss1OODEMQ9tuS
+        8QLPcB9PkOcMwqYuAdI9Aqyx+NzrHq7x5TSrfHD+44/L1EjtFhJMhU2OIKxz+GNjuwZrnWKsb5NjAxmm
+        tvpjfYcUm+oZlFqS4IEZ5Ab8A7IcRrEjDCl9PKwuC8GJjkOLx/isxoPDbXu+i73CQ069BiudPkh1MEhr
+        DENymwRpTWTcEoDPHLOQ3azB8k4+0lsXEv81/ZX9vcJo+GYEWf1BWOrhI9FCz9Yaf4Sq75sV2VdfWFEt
+        RUo927pwrKHWfWoOIsxLut8X2NCsRkqzHMvapiHXGjUKf4hHdP0t2MP7dhClAzqsc0qQbA9BglmBdeWB
+        ZZxmeVeWVsfpFVhB0ASbHxJtDFkQ8RldZWlvgNX2UCSalKNGb95Q36g8Qqc7GETBnSXY6JVgcfNMJNeH
+        YqVpDuKr5bYxPqvxoPRq5llVDQ8fmYVYQcAk+zw8xhBdGsHwCJ0IOkLOL2kuf+P5qOFjyvD2NXKux2Ot
+        RwudYQYSGkVIsi5BhJWHbH3Y+TE+q/HgcPuXh5hKHnRWAQ2ORlJDCFJvB+MB3TeegvAEfk2OFLMaJrch
+        3EVWZzIWdfOxvEGKuEYxEvULMN8yB1HlfthvWL97jM9qPCjv+yMhqlxwb4FNBJ1NjriqQOhu8Gm/LSPo
+        E4Kzs2APWgx0jFCUdD8CMS4x4k1hCLPxsdQqQVy1CnNtQsSUKXGs5XA0pxmrlLpFZu1lX8w1qRFhYrDI
+        GIyIrpmIp/cf28ZXZEo+1L5hxLo1iHQpEGsRY55Bg8WGCASZfRBTI0OUQYsweotMZLOalBxv+iFLYZYi
+        yqhGeJ0/gmtUiK2KwYJOOeI9DPn9t1DiXfOw0DMPOtpLEbUBCDdJMd+gQHCtAuFGLaQGH+y17tgwkc1q
+        UuJ50SlKN2ac9bswCxH1ylHA3DKCGKk1tMmjaRFE9jMIbveHxjwHIXoRoqoCEFapgbZcBm2DCEI9D6v0
+        cd9bBie/PVhNSljV9umjUyoTL80wzYSgcQ7mVgdBRq1R0SxDKNaWB0J7mUFIBZnqVQikG9JVhUF8lY8p
+        TVOxqEJ38jfnOdm7XFbvFVhdbP911dJLy6pF1BalXY1IMy2A2kAwtA+VFRKoqmSjLdbWMAg1BEJtD4TA
+        KETsJd3JM/Uf/oByFlnVdVTFlNYVH9VUaOFbLYQfLQSZQwGGvmcaNwNJiwK+NjGm1AohrVQhpyIrX2//
+        XcjFGhNncUzuwU7R6aYzG4tNhccT9Z9cVtKz4el9STPgX67EMn0Cci35GScajoU6vc1TuRgTxVnkUke7
+        099qMUbWGfXRrEyW2kh7i0PONZZb4P0LsOlNdOiYqPMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonX2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>753, 7</value>
+  </data>
+  <data name="buttonX2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 30</value>
+  </data>
+  <data name="buttonX2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="buttonX2.Text" xml:space="preserve">
+    <value>&amp;Import</value>
+  </data>
+  <data name="&gt;&gt;buttonX2.Name" xml:space="preserve">
+    <value>buttonX2</value>
+  </data>
+  <data name="&gt;&gt;buttonX2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;buttonX2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonX2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 42</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Định dạng</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cbb_DinhDang.Items" xml:space="preserve">
+    <value>Ngày/Tháng/Năm</value>
+  </data>
+  <data name="cbb_DinhDang.Items1" xml:space="preserve">
+    <value>Tháng/Ngày/Năm</value>
+  </data>
+  <data name="cbb_DinhDang.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 38</value>
+  </data>
+  <data name="cbb_DinhDang.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 21</value>
+  </data>
+  <data name="cbb_DinhDang.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;cbb_DinhDang.Name" xml:space="preserve">
+    <value>cbb_DinhDang</value>
+  </data>
+  <data name="&gt;&gt;cbb_DinhDang.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbb_DinhDang.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbb_DinhDang.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chk_NhanThayDau.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk_NhanThayDau.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="chk_NhanThayDau.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 41</value>
+  </data>
+  <data name="chk_NhanThayDau.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 17</value>
+  </data>
+  <data name="chk_NhanThayDau.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="chk_NhanThayDau.Text" xml:space="preserve">
+    <value>Nhắn tin mời thay dầu (dựa vào 'Ngày giao xe')</value>
+  </data>
+  <data name="&gt;&gt;chk_NhanThayDau.Name" xml:space="preserve">
+    <value>chk_NhanThayDau</value>
+  </data>
+  <data name="&gt;&gt;chk_NhanThayDau.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_NhanThayDau.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_NhanThayDau.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkChiNhanTinThayDau.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkChiNhanTinThayDau.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold, Italic</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chkChiNhanTinThayDau.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkChiNhanTinThayDau.Location" type="System.Drawing.Point, System.Drawing">
+    <value>562, 42</value>
+  </data>
+  <data name="chkChiNhanTinThayDau.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 17</value>
+  </data>
+  <data name="chkChiNhanTinThayDau.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="chkChiNhanTinThayDau.Text" xml:space="preserve">
+    <value>Chỉ nhắn tin thay dầu (dựa vào 'Ngày giao xe'</value>
+  </data>
+  <data name="&gt;&gt;chkChiNhanTinThayDau.Name" xml:space="preserve">
+    <value>chkChiNhanTinThayDau</value>
+  </data>
+  <data name="&gt;&gt;chkChiNhanTinThayDau.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkChiNhanTinThayDau.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkChiNhanTinThayDau.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>29</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>859, 620</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAQAEBAAAAAAIABoBAAARgAAACAgAAAAACAAqBAAAK4EAAAwMAAAAAAgAKglAABWFQAAQEAAAAAA
+        IAAoQgAA/joAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAD///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////AVxaWSFJRURfPz09Lf///wH///8B////Af///wH///8B////Af///wFTUVA9WllUW3Bt
+        ZxP///8B////AWppZidoZ2ftoaCg/2tqa/s/PV1hLiLIYzAlwm8yKLNvLSSxcy8kwW1FRUtxgYOD/52f
+        n/9hYWHTc3RyDf///wFRTk2Pvr6+/8LCwf/Hx8f/aGZ3/3Zvwv83LrL/NCTF/ysgvf82Lp3/Ojlb9X6F
+        iP+DiY//lZiY/19eWlP///8BbWtpc6Kiov+JjZD/l5eX/7a1tP+AgID/SEdI/1VSXv8vJbT/LSCw/yci
+        cf9FS2f/dneu/4ODgvt1c28p////AZ6dnA1bWlmtWllZ+T8+Qe95eHr/VlRe/0lHS/9APGL/Jhu2/yYd
+        lf8mH6f/Kytw+T89peljYHpl////Af///wE8O1hL////AWlqaQV+fqBpZ2WX/zMsr/8sI7L/T0yT/z84
+        xP8qIrr/HxiZ/ywluvdlYdJz////Af///wH///8BWVxhZUJBRKlKRq+1TEm2zW5qfn+BgI9hPzbY5TUs
+        tv9FPr7/X2HS/Tw5bv88PHj/Z2XWy6Ci1QP///8B////AW5vlSVLSJuzWlewn3Funjf///8B////AWxu
+        4yN8he99iJLsY3Z52iGCg6CdjpG49Wlx3yH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8Bxc3lDZOSj0GSlpkD////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BAAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//ygA
+        AAAgAAAAQAAAAAEAIAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAAAAD///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////AXh2
+        dQtaWFdzTUlIuUVCQb08OjqLSEdHJf///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wF/f38DUlBPR1RSUKtVVFDFYF9aqXBtZ0n///8B////Af///wH///8B////Af//
+        /wGLi4oPXVtauUlHRv9YVlf/X11d/0VDQ/9APz/tRkZGQ////wH///8B////Aays9ANycdwFZ2zLBU1L
+        sgUzIqUHPTO0B3Nt3QWop/ID////AUhISHtHSEj7XF1e/4eHhv9jZGP/SUZG+WRgXmH///8B////Af//
+        /wH///8B////AWdmYo1BQD//uLi4/+vr6//i4uL/09PT/1JRUv89PD7hQTi3XTEkyr0qH8bJLCDK1TAn
+        udsyKLPbMCay2y0jseEuJrHfLiS92y4gw9NOSW1PQUFB+ZCRkf/Q09P/vMHB/9DR0v+ZnJ3/Pj5A8XJz
+        cS3///8B////Af///wGdm5UPTkxK84yLjP/X19f/ysrJ/8HBwf+7u7v/nJyc/y4tL/9QSoj/VEbO/zMk
+        0P8xItD/MybG/zIjx/8wIcj/LyLE/yYeqf8fGYL/JhzE/y8sXdlLS0z/t7m7/6OtrP+KlJP/oKmq/8jK
+        yv9VV1j/X2Bcjf///wH///8B////AYN/ez1EQUH/w8PF/9LR0f+ys7H/ysvJ/+Pj4//j4+P/kpKS/5GQ
+        kv+9vL//lpar/0lCkP8xLaT/Oy68/zEey/8xINb/JiGv/1dZYv86KMv/IRxu/01QVP9ZZG3/REtK/1BN
+        WP+TmqX/vMK//3p8fv9fXli7////Af///wH///8BkY6IH1lXVv2ioaL/y8vL/3V5ef+Kkpb/vb68/6Gh
+        oP/MzMz/rKqp/5WTlP+SkpP/UU9R/zg4Of9hX1z/QT1z/zAixf8uIdL/Hx5r/zMhw/8pH5f/KCsw/zRC
+        Wv9BTmL/NTGE/5ihv//GyMf/YmFh/29taX////8B////Af///wHLysYDg4J+r1hYVv/Dw8P/tbe4/29z
+        d/9jY2T/mpqa/8nIyP+WlJP/np2b/z09Pf9BQEH/V1RV/1taWP9VUlH/NTJ2/yoew/8wIcn/MyHK/zco
+        y/8UFTT/LixU/3Bwi/9MSqr/wMDK/4WFhf9eXFrtjYqGIf///wH///8B////Af///wGcnJojcG9u3UxK
+        Sf9qZ2n/ZmRm/zk5O/8mJSr/PjxC/2RjZf9dXFv/R0VD/0NBQ/9SUE//Z2Jh/zEuRP8lHK3/Jhm4/ysf
+        vv8aFVP/LRzG/y4ptv8YF07/NjVe/05L0f86Plr/V1ZY8Y6LikH///8B////Af///wH///8BpaCjC///
+        /wFhX14lV1VUt1FPTvFJR0f1Ojk74WZlZuGhoKL/oKGf/3FwbP9CQG3/RURR/0pHSf8vLT3/OjOm/ygd
+        t/8mHL3/KBy9/yskiP8VFFr/KSHH/zU1qP8rK2vlKCKY30xJ3sVjX8Rf////Af///wH///8B////Af//
+        /wFgXm8zrai6Bf///wH///8BZmZmB2xsbAmenp8JsrKyoaurqv98e3r/NS9t/yQcv/8pHbf/KyR3/01M
+        W/9qb83/MCHK/yMZtP8kGbf/JBm0/xwViP8iGaX/KSWg/z061N9EPNBJqK/qA////wH///8B////Af//
+        /wH///8B////ASwsZmE4NkSR////Af///wH///8B////AW5rySFZWo3ZRUOV/zIrpP8wKcP/Qz3M/zUv
+        0v8mHMn/LiO7/1VSav9WV7T/UlDc/zw2xf8lHrr/Hhme/x8Ymf8jGq3/Kx7J/0lD1/2tr8iD////Af//
+        /wH///8B////Af///wH///8BanGCN0hLUs1SUU9zWFpXOZaVlkdvcM6RQD7L90A6qv9fWnn5d3R/34KA
+        jMF/gJK9SULX+Skb0/8oG83/RD9w/0ZAev9FOtT/dHnr/2Jl3P8qJor/LyuS/ywolv8vLJf/U0vO/4F+
+        vt2gotUJ////Af///wH///8B////Af///wF8fYcJa2tqhUhFQ/8wLzr9NTCL/zUux/9TULTxiImeT6Oi
+        nBuenaEH////AZqR4wNxbeOfLiLX/y0lzv85L87/OjLX/1FL0v9hY93/RkOl+0VCRv9TUlb/W1td/zs+
+        Vf9nb+r7XVjvWf///wH///8B////Af///wH///8B////Af///wFaWmlXNzVy/zUtrv9CPLn/Tk2u/2pm
+        n7X///8B////Af///wH///8B////AX144glrbuN9cnrt44SO8vOEkPPfjJTip3+D519hYbonYmBjaYGB
+        gu3Cw8n/W12n+WZv5HePleID////Af///wH///8B////Af///wH///8B////AYuO1jt+f85xgYKeX5iW
+        oEOrrag9mZqZIf///wH///8B////Af///wH///8B////Af///wGGiOYJfoflFZKV6Qf///8B////Af//
+        /wGLkr45j5LT5Z2g0f97fpnbjI2XC////wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////AZ6l3AvP1+crra6qXYWCgKOSlpkL////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAoAAAAMAAAAGAAAAABACAAAAAAAIAlAAAAAAAAAAAAAAAAAAAAAAAA////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wGJiYgDYWBfH0BAPy9WVFQlVlZWCf//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////AZOSkQNZWVgfPT08MWFhYCtpaGYP////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BlZOSA2tpaE9VU1LHTEhG8UlF
+        RPdCPj7zPDo63T48PI1UU1Mb////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wF+fn4FVVVUSVBOTMNUUlDxVVRQ911c
+        V/VgX1nhbmtkj3t6eBX///8B////Af///wH///8B////Af///wH///8B////Af///wG/v78FcG5tbVdV
+        VPVLSUj/Qj9A/zo4Of88Ojr/RUND/0ZERP88PDzZTk5OL////wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wFHR0d9SElJ90dH
+        R/83Nzj/UFFP/0JDQv87Ozn/SkhH/2FdXK17eXcb////Af///wH///8B////Af///wH///8B////Aayq
+        qQN5eXZdUFBO/T08PP9raWn/qamq/93d3f+6urr/iIaG/0E/P/9DQkP/PT0932hnaRl8b9MFX0zDJ0A4
+        tS84LLI5RTu/RUE3xks7MsNTNS7FVUA/wEUsI7pXKRy6XSwfvV0vJcNZOzLDU0E7vktFPbhDZ2C5B1NT
+        U19FRUX/Pj8//46Qkv/P0NH/6enq/+Hh4v/Jycr/Vlha/z46O/9fXFyrjo+NDf///wH///8B////Af//
+        /wH///8B////AZGPjiFcW1jdNTQy/319ff/z8/P/9fX1/9PT0//o6Oj/+/v7/66urv9BQEL/Ozo8/0ZH
+        Vp84KseZLB7N8SgeyvcnHMv5JxvN/SodyP8wKK//Miew/zEmr/0wJa7/LiWs/y8mq/8tJq3/KyS0/yob
+        zP0qGsT7WU+oP0JBQts9PT3/kZKS/9fb2v++wsH/qrOy/7S7u//Ky8z/29vb/09TV/8+Pz/5cHFvWf//
+        /wH///8B////Af///wH///8B////AXl5dHlFQ0L/VVRU//Dw8P/b29v/0dHR/8HBwf/Hx8f/ycnJ/9PT
+        0/+Eg4X/NzY3/x4dMv9HOq//OCXO/y0c2f8sHdb/LB3U/y8fz/8zKLz/MiXA/zEkwv8wJMH/LyPD/ywk
+        uf8pHrH/Ixmm/x8Wo/8lG9L/QDyFqTY2NP9QUVH/6enp/6uurv/G0tH/n6+t/7C8u/+nsLD/vb6+/7W2
+        uf8vMDD/YGFfxYaIhQX///8B////Af///wH///8B0M7MA2xoZKs0MjT/hoWI/+Li4v+4uLj/wcLA/7a3
+        tf/Jycj/wcHB/8/Pz/+hoaL/ODg4/xYWGf+nqKz/urrJ/4F9xP9DOq3/NijA/y8mwv8xJNT/Mh/b/y0b
+        wv8vHs7/MiPO/ykfxf8bGob/Pj1a/1JTjf8vHtn/Hxp9/SssLP9XWl7/b3mA/1FXWf9aZGL/VVVT/3Bz
+        cv+tt7v/srq3/97f3/88PkH/WFZR65aXkhX///8B////Af///wH///8BxMLACWtoZN85Njn/tLO2//v7
+        +/+/v7//sLGv/7Cxr//V1tT/4ODg/+fn5//o6Oj/y8vL/6Ggo/+sq6v/qqmr/8zJyP+kpaj/Y2B9/zAo
+        ff89PZf/REKp/zYgwP81Htr/MyHX/y0e1/8oJK3/JyY2/2Jjl/80Gdv/Jxyd/yEkKP9gY2f/WmJr/2V3
+        f/84Ojj/R0RA/01MgP+hqqv/rbSy/9nb2v9JS03/W1lT/ZOUjxv///8B////Af///wH///8Bzs3LA3p4
+        c7FEQkP/hYOG/+Xl5f+xsbD/b3Jw/36Ehv+ytrn/y8vK/6Cgn/+ioqL/zc3N/9nX2P+joZ//kY6O/726
+        wP98fH7/SUhI/zw9QP8nKSn/X1tX/0lKVf84Lpf/MiPP/zEk1v8uIdX/GhNn/yMsaf86Htv/MiK9/xob
+        K/8zNzr/PkVV/zhXgv8wNj3/MS1X/1VYyv+hrbH/pqup/9TV1P9CQkL/amhkzYeHggf///8B////Af//
+        /wH///8B////AZSTj2deXFv/WFdX/+fn5//b29v/vsHA/2ZxeP9LU1r/kpKR/8zMy/+kpKT/ycnJ/8fG
+        xf92dHP/amhn/6Slov9fX1//Tk1O/1RQVP9bWVj/cG9s/2ZlY/9TU1T/MS98/ycbwf8qHsv/LiK9/yUc
+        nv85JNX/OinY/xYVTP8dICT/OEBB/yo0bP95fYT/PDp6/2BbzP+0t7f/09PT/4CAgP9ST0v9f3x5daur
+        qwP///8B////Af///wH///8B////AaSioRmMi4fXSEhF/2hoaP/MzMz/vr+//4GEhv+DhYf/X15g/1JR
+        U/+NjY3/xcXF/8C/v/+Qjo3/tbKx/25ubP8sLCz/QkFD/zs4PP9jYWD/UE9N/1VTUv9KRkb/PD1c/y8j
+        s/8qHMb/LyDL/zIkwf8zH83/NyfR/yojof8SEiH/JSJB/zMufv+Rkpv/Rkaf/4+O0v/d3Nr/gYGB/0JC
+        Qv92c3DXmJaSGf///wH///8B////Af///wH///8B////Af///wGcnJpHenl47UlHRv9MSkn/cW9x/5WT
+        lf9qaGv/NDM3/zU1Nv8oJiv/QT9E/2ppbf90c3T/VVRW/0dGQf8/Pj7/QUFE/zYzNv9qaWb/aGRj/1BH
+        Sf8xLzj/Kh6g/yUbuf8mGrn/KxzD/yUgf/8YEl3/LxzM/zYo2v8iI4v/GBZG/ycpRf85N2v/XFze/05U
+        kf88PTv/Tk1M/3p2d9OamZYx////Af///wH///8B////Af///wH///8B////Af///wGRkZEFgoCAWWBe
+        Xe9VU1L/TkxM/0pISP9LS0n/QD9A/yUiKf8dGiL/Lisz/3d2ev95eXn/jo6N/2VfXP9GR0n/T0xK/0lI
+        R/9EQkP/U1FT/zc3Qv8pI4P/JR26/yMbt/8lF7v/JRm4/y4fuf8YFzT/HhaD/ygcyv83L9n/JiaU/zI1
+        Rf8cGF7/IyCe/zYvyv9CQaH/S0qA+4uIjjf///8B////Af///wH///8B////Af///wH///8BpaCjGf//
+        /wH///8B////AVlXVkFUU1KrTU1L50xLSfU9PD3rNDM21XR0dK2OjovzzMvL/6Ojov+VlZL/aGhh/05N
+        W/85M4r/ODdX/1FSUf9KRUj/Mi41/zo5gv86McD/KBux/yUcvP8pH73/Kh6//ygbwP8xL37/DREl/yIa
+        pP8lH8H/NzLD/z5Fkv8jIW3FLCGQzTo3x8lSU9+bcG3gS6ul6AX///8B////Af///wH///8B////Af//
+        /wH///8BdXRzM4mGjA3///8B////Af///wGGhoYDXF1cCXh4eBFeX18LmZmaD7+/vw+urazLo6Ki/6+x
+        qf9zbm3/R0JM/yIcj/8kG8T/Kxy6/ygfiv8vLkz/RklE/21yqP9gaOn/KxzF/yQasv8jGbP/JBm3/yUa
+        uf8lGLL/GxR9/xMRXf8nGr7/IxyY/0FFu/9IS9C3TkXHK46W1gX///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8BPDhrPyUjW5k3Mjc3////Af///wH///8B////Af///wH///8B////Aaam
+        pj+eoZ77lpeY/2hnef9MS3b/KSGZ/yQaxv8lG8X/IxvE/yUdxP8oG7j/OjCK/1NNY/9oaZv/TD/i/zkx
+        1v8nG7v/Ixm0/yMZtP8iGrT/Ihq3/yMaqv8gGp7/IRqi/yUZuv8vI9X/OjPa53t/4n+4vNwX////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8BTk1rNTQ3XJc/PD2F////Af///wH///8B////Af//
+        /wH///8BeHfLIVpWr3M7O4n7Li2e/zUts/8xJ8D/My7G/0I7yP9VVdL/R0Xc/ygc0P8nHcr/JhzN/zsx
+        qf9bWFn/WV+E/1hb3P9mZ+X/UE7T/zErw/8kHrv/HBeX/x0Ylv8gGZ7/Ixmw/yYdvv8tIMv/NCnV/46P
+        yP+7urxj////Af///wH///8B////Af///wH///8B////Af///wH///8BVVdbFVlieH1CQkPJXFlVO31+
+        fRmfoJ4FubuvC8vL3SNwcc11RUPN6zo4zf02MrT/PTpy/1xWa/9ubXv9e3mI94OBjPF1eZHzVFHV/SgZ
+        1/8oHM//JxzO/zMmq/9PTUz/VU5Z/01Jlv9SSeL/f4fv/32G8/9RTuf/ODO//ygerf8rJLP/MCi+/0E7
+        xv82Mbn/OTDU/5mVtP+RkL7Zn6HUFf///wH///8B////Af///wH///8B////Af///wH///8BaWptR3WB
+        nUlRUVPVPTw+/0RHPuk4ODW9VlFW0W5xrPNCRc7/PDXL/0xJqftwbH7Vl5KOq56cnHuemplNnpuYM6up
+        oyWQjqMvc3Hk1S8g1/8qHNP/JxvR/yogvf87L6H/Lye2/yYayP8qHtH/RkLZ/2ls4P9aXZr/JiUu/yEf
+        Lv9DRVP/ExQo/xkaNv8jJ0L/YFnV/0lD3P9bVOeL////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Abm6uQdnaGXDUU1K/0hFRP8rKUb/MSqW/zMqzP8vIML/S0if/5WX2H3///8B////Af//
+        /wH///8B////Af///wH///8BjovlT05K3/MuIdb/MCbO/zk10f89NNb/Qjjc/0hC4/91csz/eIDf/0A4
+        2/9LS4z1Z2Zl/y8sNf9ycXX/gYKD/11aWv9KUnz/b4Hv/11f7b+Pk+0N////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wFeX12BNjlG/yokef8rILX/NSzC/z45y/89O7r/VU2l85Wf
+        zCn///8B////Af///wH///8B////Af///wH///8B////AXV35UlmaeHTcXnw/XyJ7/+FkPP/iJT4/4GQ
+        8/eTmNnfgoXln21w5lthY5svamhpfVNSVuN1dXX/zs7O/4eIlv9eYbv/Ym3m1Xl86h3///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////AbK11gNtba2dXlnF/1hVt/1lZaz3cG2h3318
+        nNeIi5XViouMt6KjpAv///8B////Af///wH///8B////Af///wH///8B////Af///wGGi/IPbnXnXXl/
+        63+Ij/CLgonqZX6F6DWUm+YN////Af///wH///8B1tXeA5eaoFPJzNP/vLze/3J2uP97frzPfHTRH///
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////AbO06AWgo+whlZvOJZyb
+        qSmlpqATq6mtCaurqgetrqsHoaGhBf///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8Bl5muE3iAxdF8etjtq7Di/4iO
+        m/9mZH7TiIqRE////wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BpqfABZ2n
+        6Sfa4uVLztLKY3p1d+WPj4rNkpaZFf///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wHW1tYD////AaCgoBWsrKwV////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8BAAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAA
+        AAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA
+        //8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAA
+        AAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA
+        //8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAA
+        AAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA
+        //8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//KAAAAEAAAACAAAAAAQAgAAAA
+        AAAAQgAAAAAAAAAAAAAAAAAAAAAAAP///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////AX58ewlXVVQvTktKZUZDQ4M9OjmHREJCcTg3
+        N0VIRkYbWVdXA////wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////AWpnZRFPTUtBU1JQcz49O41TU1CJZ2Vib11bVj90cWcR////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////AXZ0cytiYF+lU1FQ7U9K
+        Sf9OSUj/S0ZF/0NAQP8/PT35Ojg41UVDQ3tYWFgZ////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8Bf39/B1paWktMSkm/U1FQ91ZUUv9YV1P/Xl1Y/15dWP9hX1n1bWpjv3Vz
+        cFGBgX4D////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8Bv7+/A4CA
+        fzdkYmHRVVNS/01LSv9IRUX/Q0BB/0E+Pv9DQUH/R0VF/0lHR/8/Pj79PT09vVRUVCf///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8BXl5eCUhISH1GRkbxSkpK/0JCQv86Ozv/REVD/0FB
+        P/88PTr/Q0NA/0xKSP9bWVflcm5sT4KBgAf///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////AYmJiDljYmHdS0lI/0E/Pv9BQD//U1JU/4KBg/+NjI7/aWho/0ZERP89Ozv/RURE/z4+
+        Pv8/Pj/DZGRkH////wH///8B////Af///wH///8BjIzLA7+/8wWfnvUHhYTpCWRi0QtLTLwLoKvqB6ix
+        8QUsJZsNMiGiDzQiqQ82J6kNRUDADWNf0AuGgO4JnqDwB7ex9gX///8BmZmZA05OTnNFRUX3RkdH/0VH
+        Sf9fYWL/lpeZ/8vMzP/Ky8z/oKKi/25vcf87Oz7/QT4+/1hTUdl0c3NRtra1A////wH///8B////Af//
+        /wH///8B////Af///wH///8B////AaKgnxVra2avR0dD/zc2Nv9UVFT/w8LC/+jo6P/u7u7/8vLy/93d
+        3f/l5OT/hoWF/zo6Ov9DQkT/Ojo7/UlISpeepaMHWErIIVA9xnNBNL2FNCm5jTIkupk3Kb+pMyjDrzIn
+        wrMyJsG7LiHHvTMuva0zKsKrJxy/wyYbv8MoG8XDKR/Cwyshw78wJsC7NCjBszIsuq85LbOhX1a8G15e
+        XjlERETpRkZG/zk6Ov+ZnJ3/8PLy/9bX1//Q0dL/zs7Q/9nX2f/t6+z/oaWm/zY6O/88Nzv/WVlX0YKD
+        gSf///8B////Af///wH///8B////Af///wH///8B////Af///wGCgH91UlFO/TIxL/9TU1P/zs7O//v7
+        +//6+vr/3Nzc/8fHx//09PT//v7+/+Pj4/+Pjo//Ozo8/z08Pv83NzrxUU+XezIkyc8nGc//JhvN/yUc
+        zv8mHM7/JhvR/yYbzv8sI7z/Miqq/zQsqP8xJqr/Myir/zIppf8yKKX/MSmi/zIqo/8uKab/LCmq/yob
+        y/8pGdD/KRbH/2BTz0M+PD6lQ0ND/zg4OP+UlJT/2Nvb/8fMy/+0ubn/oauq/6+5uf+0u7v/xsfI/97c
+        3f+xtLb/KCsw/0FCQfltbmyHubq4A////wH///8B////Af///wH///8B////Af///wGys6wRbGtn10A+
+        Pv80MzP/xcXF/+zs7P/m5ub/1tbW/8bGxv/CwsL/zMzM/93d3f/Ozs7/7Ozs/1pZW/85ODr/KCcr/ych
+        ZP84Jb//MR/T/ywa2v8rHdj/Kh3W/ysd1f8sH9D/MCXB/zQstP8zKbb/Mya7/zMnuv8wJrr/LyTA/y4m
+        vP8uJ7X/MCG6/ywftv8lF7T/JxrG/yQazv9TTbWHLCwo5z09Pf9SUlL/6+vr/8fIyP+0u7r/xdHQ/6S0
+        sv+ywcD/tL+//6ivr/+5urr/6Ofo/2BjZ/80NjT/XV5c646PjR////8B////Af///wH///8B////Af//
+        /wH///8BlJKMKV9dWfkxLzH/VlRX/+Dg4P/W1tb/tbW1/8vLyv/AwcD/u7y7/7y8u/+kpKT/nZ2d/7Gx
+        sv94eHn/MjEz/yUlJf8tLDT/tLTJ/5WTwv9dSsj/Py/G/zYny/8xIc3/OyzN/zMlzv81Idf/MBzb/zEg
+        z/8vHNX/MBzZ/zIizf8rHcj/JiG3/xMQfv8RC1f/GyNH/yUepf8pHdf/KySY9SIiJv0tLi//bnBy/62y
+        tf97gYX/eYB//5qmpv9xdnj/YGdh/5KZmf+Un6H/r7e2/9DPz/+cnaH/JCUl/1VVUfF5enQ5////Af//
+        /wH///8B////Af///wH///8B////AYJ+eWdXVFH9Kyks/4GAhP/y8vL/6urq/7a2tv+2t7X/paak/7a3
+        tf/b29r/5OTk/+3t7f/x8fH/x8fH/09PT/81NDX/Jycs/6Wmpv+7vL7/ztHX/6ClvP9IRIz/Qzav/y4g
+        uv8lIMH/My7U/zgs2/80Gtr/Ihmo/zEg0f8yItL/Lh/T/yMewv8kJX7/VlZe/7m9u/87L7H/MRzb/yUd
+        o/8cHCf/IiQn/3V5ff9UXGT/VWFo/z9HRf85PTr/SUU+/4B/gv9zdoD/0Nrc/662tf/Q0s7/ztHS/y4v
+        Mv9TUUv/cnNsef///wH///8B////Af///wH///8B////Af///wGEgHyJWFRR/zUzN/+enaD//f39/+zs
+        7P+6urr/srOx/7m6uP++v7z/2trZ/9ra2v/i4uL/5+fn/+zs7P/r6+v/2tna/7i2uf+/vr3/lZSV/9XQ
+        0v/Bvrr/rq+r/29vdf9FQWL/JB5v/0hKjP9KTZf/Niaj/zsh0v81HeD/NCLW/zAe3P8qHtT/JiKp/w8O
+        Kf8/Q0X/SD7C/zUY3P8vH73/FRcv/yEkJv99gYX/YGdv/1xtef9icnj/NjUz/0pHPf8uKmP/bXSX/5qj
+        o/+rs7L/ycvI/7W4uv82ODr/WVZR/3NzbXX///8B////Af///wH///8B////Af///wH///8BjYmEU2Vi
+        X/09Oz7/amhs/9zc3P/W1tb/p6in/3N0cv9vcnH/r7Kz/8TFxv/Q0dD/nJyb/6SkpP+wsLD/0tLS/9PT
+        0//Y1db/oqCc/5GOjf/Gwsn/n5yj/2RkZv9JSEn/SEdH/x0gJP8lJyb/ZF5a/1RUUP89PW7/NSa6/zQl
+        0P80J9n/MSXV/y0e1f8aEGv/Gykz/y8osf87G9//NyPR/xQWPP8kJiv/QURI/0VKVf85U3P/NU9n/yss
+        Mf81MkX/LSid/46d1v+XoqT/k5qY/97f3f+doKH/Nzg5/2VjXu91dG4x////Af///wH///8B////Af//
+        /wH///8B////AZmZkSV9fXj3SEZG/1FPUP/v7+//4uLi/87Ozf+coJ7/Vl9j/1Fhbv9nbnP/u7y5/87P
+        zf/Ozs3/YWFh/729vf/Pz87/v768/3l3dv9bWVj/oqKg/7O0sv+RkZL/VVRX/11aXP9KRkv/VFRQ/2lo
+        Zv9kYmH/WlhW/zY5TP8uIqP/KRzI/yofzf8uI9L/NiTF/xIZS/8qG6j/OSXT/zwp3/8eGXH/Gxwm/x8k
+        Jv8vNDr/ITZo/zdNef9tcnf/QT5v/zIuvf+Xm9r/paup/7q6uv/s7Oz/ZWVl/0xIRP90cm7Bn56eF///
+        /wH///8B////Af///wH///8B////Af///wHLysYHmpiWmV5dW/89PDr/mJmZ/9TU1P/19fX/9fb2/6uw
+        s/9ZY2v/WV1h/1lZWf+RkJH/zc3M/87Ozv/Z2dn/wMDA/6mnp/9oZmX/hYOC/6mopv9mZmX/IiEi/0FA
+        Qv9LSUv/PDg8/29ua/9qaWb/Z2Vk/11bWv9kYVz/OkNF/yUcnf8lHL3/KBrG/ysdyP8uI8b/NR3V/zgi
+        1v84J9T/Myay/woRI/8cHST/Oz8//0dFcf8/Pm7/j46S/zEzXf9HO8f/h4eq/9TT0v/n5+f/eXl5/z4+
+        Pf9nY1/1ioeDZ////wH///8B////Af///wH///8B////Af///wH///8B////AaOhoSuVlI/3UFBL/zo6
+        Ov+Hh4f/vb29/7OztP+BgoP/enx//5GRk/90c3b/MC8x/1BPUP99fX3/ubm5/8/Pz/+ioJ//paOi/7m3
+        tf+TkpD/Q0RD/ykoKf8/PkD/Ojg6/09LUP9gX1z/TUxJ/09NTP9QTk3/Qz4//0pNWv8qHZ//MibB/yod
+        yf8uIMb/OCXQ/y0krf80IND/NybR/zks1P8YFWr/FBIf/x0aNv8ZEmz/Y2OR/5GRmv9HR57/cXLk/8fK
+        0P/d29z/eXl5/zs7O/9XVlb/hoJ+v5iVkRn///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wHIx8cHnJyab4GAf/lOTEv/OTc2/1hWVv96d3r/trS2/7Cusf9ycHX/MC80/zIyM/8zMjP/Li0w/0FA
+        RP94d3v/iomL/5iXmf9paGr/TE5H/0A/PP84ODf/PD4//zw4PP84Njf/dnVx/2tmav9cVE3/QTg7/zQz
+        NP8tIYn/JhrA/ycYvP8mG7j/KBjB/zEpt/8SDzj/IBaH/zAdz/80Htr/NjDJ/xgaav8dGUD/FRVP/0JI
+        Tv8yMmf/XV3Y/2NoyP9PVGH/PDg5/0REQ/9eW1z/iIaFu5+dmyn///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////AZGRkRONjIyBc3Fw+VZUU/9IRkX/QD4+/zg1Nv83NDX/PT08/0hI
+        SP88Oz//IR4m/xkVH/8lIiv/GRYf/ywsLv9CQkP/XFxc/2RdYf9hXFn/Q0E//0hFRv9LSUr/MjAw/2hn
+        Zf94eHD/XVZd/yclNP8pJmz/JBi5/x4dsv8lG7L/JRi6/yUZuf8vIsX/JR5p/w8RI/8pGaX/Jh3J/zMn
+        2f84NMr/FBVx/xkaOP85OT//KiCD/zkxzv8+Ntf/MDeD/y00S/9CQ0z/gX1+yaCVkh3///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BkpGRDVxaWYNSUE/7VlRT/1dV
+        Vf9WVFP/WFZV/0pJSf8zMjP/IyIm/zY0Of8mJCn/VFNX/7e1uf/Hx8b/j5CP/6Kiof9kYF3/YmZe/zg3
+        Tf9SUE3/UE5L/1RSU/80MDT/JiIr/ywtNP8gIlP/LCCz/ysjuf8pH77/JxrB/yYYvf8kGLj/Jhi8/yoe
+        qP8vKE7/EBA7/yUatv8oHMn/Ni3Z/z88z/8pLHD/ODlU/xINYf8VFXH/JiGy/zw23f9ZVeX/XFfI8Whn
+        qV3///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BpaGjK////wH///8B////Af//
+        /wFnZWQFbWtqQVdWVZ1MTErZSEdF7UVEQ/E6OTvjOjk8xWJiYr+trqqPr6+q+d3c3P+enZz/mJqa/5OT
+        jv9fYFP/X15f/zIxZ/87MqH/KCVd/0tNT/9UVFP/S0ZK/0Q8RP8nKVL/bGjZ/y4iu/8nGa7/Jxi3/yEe
+        t/8rH77/LSDE/yoeu/8nGr//LS9t/wsSFv8VEWL/JB28/yMevf8yKcP/PUSe/0FFluseHmOtLR2Muz02
+        s79GRtSlW1/bcX6A4imIhdQD////Af///wH///8B////Af///wH///8B////Af///wH///8B////AXNy
+        bjmTk5AX////Af///wH///8B////Af///wGGhoYFYWFgC2lpaRF4eHgVWlpbDZOSkxGoqKgRu7u4I62s
+        qt+Rj5H/vb64/5makv9gWFj/WVFV/yIfUP8nHq3/JBrF/ywcuv8vIZz/IiBT/zg7Pv9HSzv/U1V5/4OO
+        7f9QVeT/KBvA/yYYtP8iHK//JBm0/yUZt/8mGbv/JRu5/yUYrP8bE3b/CgtA/xwYf/8oGsT/IRia/z1G
+        j/9LUN33TlHGiWVcwhWLkM4Jj5fZBf///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wGFh4IFTUppe6ynug3///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Ab6/wIOvsLH9y8zM/5OTlP98fH//e3x//zIuYv8pHqv/IhrI/yQdwf8nG8L/IxvG/ysc
+        vf8mG43/QDlp/1pVTv9fZHr/dnfn/z0r4P82KNb/JBi2/yMYtf8jGLT/Ixm0/yQZtv8jGbb/Ixu3/yga
+        tf8iGZ3/Ihi2/yEbrv8lHKj/Jx3N/zo02vs7NNTFSkLIRb7C+wX///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8BZ2WDNwoJVO0gHkLdMC4tY////wH///8B////Af//
+        /wH///8B////Af///wH///8B////Aa6urAWAhH+bb3Zx/0RIU/9raI//NjR+/ysil/8gGrP/IBjG/yUW
+        y/8lGsX/JBzF/yUdyP8lHcX/JRzG/yohuf85MJT/U1Fi/1tdbP9gXND/RULk/0I/3v8tI77/Ihiy/yIZ
+        sP8hGLP/Ihm0/yAZqv8cGpj/GxeO/x0YhP8hGZD/Ihm0/ykawv8pHMr/NCzZ/1la3/Wdo+C5vrvWG///
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////AYyMkhdSV35NSkZKu1hZ
+        Wk////8B////Af///wH///8B////Af///wH///8B////AX5/yyNmYclfSUSgyzg1ov8yMLb/Myu7/zEo
+        uf81LMH/OzPH/0Q9y/9XVsj/aW7a/1xf5/8uItX/JxzM/ycdzf8mGdP/LiLL/0VAgf9iXFr/WWBh/1le
+        vP9laOn/dHfs/2do4/9EPtD/LCfH/yUguf8bGJn/IBme/yAZpP8iGq3/JBm6/yQdt/8qHcj/MCPP/zIn
+        2f9nYcr/sbO588HAuUf///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8BscDpD0lJUds+QECliIWAG3+AfgX///8B////Af///wH///8BxszXE3Jx0GNJRsvhPUDK+zg1
+        0P82M77/MC6A/0A6X/9TUGf/YmF2/25sgv91dIf/fHqH/2hvjv9hY9b/KRvW/yga1P8nHM7/Jh3N/yoa
+        y/9ANn3/U09H/1pSTf9UVWH/VE/F/1pV5P+DjO//iJL2/2Bk7/9GQen/Qjvd/y0ixf8rIMH/KiLB/ywk
+        yP9GQdD/OzPL/zszyf80L9X/gHHN/6empP+bnsDPoKPTHf///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8BamlpYWJtim1ncIS9Nzg49zs5N+VkZmPHWFlVjVlaWVGLiodznZ2gqY+R
+        0dlMTcv3Pj3Q/zw2x/9ANqb/Ukpz/3x1d/2Wj5DtnJiVzZyalK+gnpiToqKbd6+qp3OIiZ2BZmDZ5zct
+        1/8qG9f/KBzS/ykZ1f8nHcn/OTaN/0RBcf88NJH/MCap/zAdzP82Jdv/Tkjd/3V96v+Hker/Wl6t/yQp
+        S/8UEjv/Oztm/yssX/8ZGFj/JSRn/x8gYf8nKmb/PTLJ/11Zz/9WU8P/ZV3dp6Ca3gf///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////AYODgw91eYoRlZSXF29tcPVBP0T/Ozs4/y0v
+        Jv8qKyX5Ni87/T4+hv9BQsv/NjbO/zsuw/9WVbT7eX2bsZiVlG2no51Hm56bJZ2doBOin6IHvLm7A///
+        /wH///8BmpHjB4OB4ZldW+D/LBrc/ysd0f8kHMz/JR7H/zIlw/88Ksv/LyXK/yEZyv8oGtT/MSvP/0xM
+        3P9laOD/PjfI/1tcgP9JRkb/GBQe/1JQVf9KSk3/ICAi/ycnK/8gIir/LzNN/35+3/9XV+7/TUXw23V2
+        7i3///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Abq6
+        uRdcXln1UE1J/1NNSf8/P0f/KSRX/zAnov8xK8f/LyDI/yweuv9DQpH/hITMzaut2hn///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wGLht4heXLpwTMy2/8wINb/MybS/zo10/89ONX/OzPV/0c9
+        3/9QTOj/Wlfi/5CRw/9/idn/UlDf/zMp0v9OUXftcXBs/UE+R/83NTz/eXh7/5iZmf+PjY7/Q0JB/1hh
+        nv9whvH/WGHr73V17Fe/zPUD////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wHBwsAHWVpVsUBEQP8tLk3/Jx2G/ykbtP8vJL7/NCzL/z06z/87Ob7/ST+n/4SH
+        yYP///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////AX144h1vc+SjZWjh93F2
+        7/92ge//e4ju/4CL8v+Hkvj/g5L2/4WS7v+ZntHzgYPjz3iB7JNkYdxhXGB+N29tbZVTUVXfTUtP/2tr
+        a/+ztLP/29rc/1dYdv9pb87/Xm7n9Wxy7HGPleIF////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8BvcLKBVVTeJ01LoH/OTO4/z84wf9EQ77/TUuw/1hV
+        qv9hYZ3/X1+O/3Rxif2Eh4tV////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8BjIrhC25y5VNqc+m9dX/r04qT8+mNlvXnhpDxz4CK66uBie5ziYngN5OQ5RWfpOcD////Af//
+        /wGtqa4Df3+AK4CAg7XLy8v/9PX0/4aKof9aXK//UVGo629s1m+Eh+QJ////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Aayu3RmDhtO5hYfoyXNx
+        udN2eJu/iYmfsZOPno2enaN/q62oe6utqXmam5ptlJOTFf///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8BrLH3C3R03hd7guUngozmJ4yQ6RWssesF////Af//
+        /wH///8B////Af///wH///8B////AayzwUOXnbfJp6rY/4mH1P+Ih8//pK/W/4CEpp25sdgD////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wGpqOUJo6jwD5ml0w2cm6UXtraxC6yqmwX///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////AcbDxQN8g7ybcHTW44yL4uu4v+X/qrK6/19f
+        cP9lY3rTiIqRI////wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BnqXcKaKu
+        8ind5eRz193Tb5qYmNVvaWn9jpCJ05KVmSX///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wHZ2NcD2tbfDby+vAWbmpcpkY+Pg6imqDf///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Thêm xe máy đến bảo dưỡng.</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
+    <value>openFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog2.Name" xml:space="preserve">
+    <value>openFileDialog2</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmImportXeBaoDuong</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

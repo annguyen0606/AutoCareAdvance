@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="ChiTietPhuTungLuanChuyenModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <Function Name="LayChiTietPhuTungTheoDonDat" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="IdXuatKho" Type="int" Mode="In" />
+          <Parameter Name="IdCongTy" Type="int" Mode="In" />
+        </Function>
+        <EntityContainer Name="ChiTietPhuTungLuanChuyenModelStoreContainer" />
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ChiTietPhuTungLuanChuyenModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="ChiTietPhuTungLuanChuyenEntities" annotation:LazyLoadingEnabled="true" >
+          <FunctionImport Name="LayChiTietPhuTungTheoDonDat" ReturnType="Collection(ChiTietPhuTungLuanChuyenModel.LayChiTietPhuTungTheoDonDat_Result)">
+            <Parameter Name="IdXuatKho" Mode="In" Type="Int32" />
+            <Parameter Name="IdCongTy" Mode="In" Type="Int32" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="LayChiTietPhuTungTheoDonDat_Result">
+          <Property Type="Int64" Name="STT" Nullable="true" />
+          <Property Type="Int64" Name="IdXuatKho" Nullable="true" />
+          <Property Type="String" Name="MaPT" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="TenPT" Nullable="true" MaxLength="350" />
+          <Property Type="Int32" Name="SoLuong" Nullable="true" />
+          <Property Type="Int32" Name="IdCongTy" Nullable="true" />
+          <Property Type="Int32" Name="DonGia" Nullable="true" />
+          <Property Type="Int32" Name="TongTien" Nullable="true" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ChiTietPhuTungLuanChuyenModelStoreContainer" CdmEntityContainer="ChiTietPhuTungLuanChuyenEntities" >
+          <FunctionImportMapping FunctionImportName="LayChiTietPhuTungTheoDonDat" FunctionName="ChiTietPhuTungLuanChuyenModel.Store.LayChiTietPhuTungTheoDonDat">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="ChiTietPhuTungLuanChuyenModel.LayChiTietPhuTungTheoDonDat_Result">
+                <ScalarProperty Name="STT" ColumnName="STT" />
+                <ScalarProperty Name="IdXuatKho" ColumnName="IdXuatKho" />
+                <ScalarProperty Name="MaPT" ColumnName="MaPT" />
+                <ScalarProperty Name="TenPT" ColumnName="TenPT" />
+                <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+                <ScalarProperty Name="IdCongTy" ColumnName="IdCongTy" />
+                <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+                <ScalarProperty Name="TongTien" ColumnName="TongTien" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

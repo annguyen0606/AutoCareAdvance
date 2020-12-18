@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<configuration>
+<configSections>
+    <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+        <section name="AutoCareV2._0.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+    </sectionGroup>
+</configSections>
+<connectionStrings>
+    <add name="AutoCareV2._0.Properties.Settings.DataSet4" connectionString="Data Source=123.30.59.159;User ID=autocare_user;Password=Autocare!@#"
+        providerName="System.Data.SqlClient" />
+</connectionStrings>
+<startup><supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/></startup><userSettings>
+        <AutoCareV2._0.Properties.Settings>
+            <setting name="grvLichSuBaoDuong" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="grvPhuTung" serializeAs="String">
+                <value>False</value>
+            </setting>
+        </AutoCareV2._0.Properties.Settings>
+    </userSettings>
+</configuration>
